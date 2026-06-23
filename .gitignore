@@ -1,0 +1,9 @@
+# Dependências do Tailwind
+node_modules/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários do Linux
+*~

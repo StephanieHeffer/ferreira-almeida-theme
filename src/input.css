@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .cursor-grabbing {
+    cursor: grabbing;
+  }
+
+  .mobile-item {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+
+  .mobile-item.show {
+    opacity: 1;
+    transform: translateX(0);
+    transition:
+      opacity 0.4s ease,
+      transform 0.4s ease;
+  }
+}
+
+@theme {
+  --font-title: "Playfair Display", serif;
+  --font-body: "Montserrat", sans-serif;
+
+  --color-primary: #1f3e78;
+  --color-secondary: #b88d51;
+  --color-dark: #041221;
+  --color-light: #e2e2e2;
+}
