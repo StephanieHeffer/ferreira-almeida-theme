@@ -52,7 +52,6 @@ $home_url = fa_home_url_lang();
                     <li><a href="<?php echo esc_url($home_url . '#about'); ?>"><?php echo fa_is_en() ? 'About' : 'Quem Somos'; ?></a></li>
                     <li><a href="<?php echo esc_url($home_url . '#lawyers'); ?>"><?php echo fa_is_en() ? 'Lawyers' : 'Advogados'; ?></a></li>
                     <li><a href="<?php echo esc_url($home_url . '#news'); ?>"><?php echo fa_is_en() ? 'News' : 'Notícias'; ?></a></li>
-                    <li><a href="#"><?php echo fa_is_en() ? 'Contact' : 'Contato'; ?></a></li>
                 </ul>
             </nav>
             <div class="relative group font-body text-white text-sm">

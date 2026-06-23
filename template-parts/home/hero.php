@@ -19,21 +19,7 @@ $image_alt = $image && ! empty($image['alt']) ? $image['alt'] : '';
         src="<?php echo esc_url($image_url); ?>"
         alt="<?php echo esc_attr($image_alt); ?>">
 
-    <div class="
-    absolute inset-0
-
-    bg-gradient-to-r
-
-    from-[#041221]
-
-    via-[#041221]/85
-
-    to-transparent
-
-    lg:from-[#041221]
-    lg:via-[#041221]/95
-    lg:via-[#041221]/75
-    ">
+    <div class="absolute inset-0 bg-gradient-to-r from-[#041221] via-[#041221]/85 to-transparent lg:from-[#041221] lg:via-[#041221]/95 lg:via-[#041221]/75 ">
     </div>
 
     <div class="relative z-10 h-full flex items-center">
